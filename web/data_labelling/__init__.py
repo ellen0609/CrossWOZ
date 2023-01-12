@@ -22,4 +22,4 @@ def run():
     rd.flushall()
 
     socket_io = SocketIO(app)
-    socket_io.run(app)
+    socket_io.run(app, host='0.0.0.0', port=5000)

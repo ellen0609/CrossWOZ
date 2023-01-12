@@ -11,6 +11,9 @@ Copy `.env.example` to `.env`, `settings.example.py` to `settings.py` and update
 Run the following command and visit http://localhost:5000.
 
 ```bash
+# install redis
+sudo apt-get install redis-server
+
 # install dependencies
 pip install -r requirements.txt
 
